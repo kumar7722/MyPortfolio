@@ -1,0 +1,219 @@
+body{
+   
+    
+    
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%); 
+    
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00D1FF', endColorstr='#EE82EE', GradientType=0 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(90deg, #EE82EE 0%, #00D1FF 100%);
+    
+    
+}
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/techwalpaper.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.halfhero_title{
+    font-size: 3rem;
+}
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #008000;
+    
+    
+}
+
+
+
+    
+    
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    height: 52%;
+    border-radius: 0px 50px 50px 0px;
+    margin-left: -12px;
+}
+#sidepop{
+    border-radius: 50px 0px 0px 50px;
+    background-color: lightgreen;
+    height: 60%;
+    padding: 45px 15px 25px 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+/* style for image gallery */
+
+.carousel-inner img {
+  width: 100%;
+  height: 80vh;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: lightgreen;
+    text-align: center;
+   
+    
+}
+
+/* style for portfolio section */
+.portfolioContent{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 15px;
+}
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0px 0px;
+    
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
+    color: #008000;
+}
+.fa {
+    color: #000000;
+    margin: 0px 10px;
+}
+/* footer styling */
+#footer {
+    background-color: transparent;
+    text-align: center;
+}
+footer>h6{
+    margin: 30px auto;
+}
+
+
+/* spacing on all sections */
+ #portfolio, #contact, #image_gallery {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+#contact {
+    padding-bottom: 2rem;
+    
+}
+.map{
+    border-radius: 15px;
+}
+/* contact form */
+
+#subject{
+    border-radius: 0px 15px 0px 15px;
+    margin: 10px auto;
+}
+#comment{
+    border-radius: 0px 15px 0px 15px;
+    margin: 10px auto;
+}
+
+
+/* style for feedback form */
+
+#feedback-form {
+    width: 80vw;
+    margin: 40px auto;
+    border: 1px solid #008000;
+    border-radius: 15px;
+    padding:20px;
+    margin-bottom: 10px;
+
+  }
+  #name{
+    border-radius: 0px 15px 0px 15px;
+    margin: 10px auto;
+  }
+  #email{
+    border-radius: 0px 15px 0px 15px;
+    margin: 10px auto;
+  }
+  #feedback{
+    border-radius: 0px 15px 0px 15px;
+    margin: 10px auto;
+  }
+  .btn{
+    margin-top: 20px;
+    width: 50%;
+    border-radius:  0px 15px 0px 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+  }
+  
+
+
+  /* Responsiveness */
+
+  @media only screen and (max-width: 770px){
+    .imageAboutPage{
+    margin-bottom: 20px;}
+    #sidepop{
+        margin-bottom: 3rem;
+    }
+  }
